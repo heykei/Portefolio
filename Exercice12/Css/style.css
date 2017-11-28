@@ -1,0 +1,72 @@
+.type{
+  height: 200px;
+  width: 200px;
+}
+.first{
+  background-image: url(IMG/background1.png);
+}
+.second{
+  background-image: url(IMG/background2.png);
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+}
+.third{
+  background-image: url(IMG/background3.png);
+  background-size: cover;
+  background-position: right bottom;
+}
+
+table{
+  height: 100px;
+  width: 100px;
+}
+.noir{
+  background-color: black;
+}
+.blanc{
+  background-color: white;
+}
+.fonction{
+  background-color: white;
+  color: black;
+  border: 1px solid #000;
+}
+.button1:hover {
+  background-color: blue;
+  color:white
+}
+.button2:active{
+  background-color: blue;
+  color: white;
+}
+
+.button3:hover{
+  background-color: lightblue;
+  color:white;
+}
+.button3:active{
+  background-color: darkblue;
+  color: white;
+  transition: background-color 1000ms linear
+}
+.exo5{
+background-image: url(IMG/kenny.jpg);
+background-size: 50%;
+}
+.opaque{
+  opacity: 0.9;
+position: absolute;
+margin: auto;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+height: 200px;
+width: 200px;
+background-color: #ccc;
+border-radius: 3px;
+}
+.fiche{
+  list-style-type: none;
+}
